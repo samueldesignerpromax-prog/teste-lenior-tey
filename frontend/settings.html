@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Configurações · LENIOR</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/settings.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>" />
+</head>
+<body>
+  <div class="settings-container">
+    <header class="settings-header">
+      <a href="chat.html" class="btn-back">← Voltar</a>
+      <h1>⚙️ Configurações</h1>
+    </header>
+
+    <main class="settings-main">
+      <div class="setting-group">
+        <label for="username">Nome do usuário</label>
+        <input type="text" id="username" placeholder="Seu nome" />
+      </div>
+
+      <div class="setting-group">
+        <label>Tema</label>
+        <div class="theme-options">
+          <button data-theme="light" class="theme-btn active">☀️ Claro</button>
+          <button data-theme="dark" class="theme-btn">🌙 Escuro</button>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <label for="soundToggle">Sons</label>
+        <div class="toggle-container">
+          <input type="checkbox" id="soundToggle" checked />
+          <span class="toggle-slider"></span>
+          <span class="toggle-label">Ativado</span>
+        </div>
+      </div>
+
+      <div class="setting-group">
+        <button id="clearHistoryBtn" class="btn-danger">🗑️ Limpar todo o histórico</button>
+      </div>
+
+      <div class="setting-group">
+        <button id="saveSettingsBtn" class="btn-primary">💾 Salvar configurações</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/settings.js"></script>
+</body>
+</html>
