@@ -9,32 +9,27 @@
   padding: 2rem 2rem 2.5rem;
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8);
 }
-
 .settings-header {
   display: flex;
   align-items: center;
   gap: 1.5rem;
   margin-bottom: 2.5rem;
 }
-
 .settings-header h1 {
   font-size: 1.6rem;
   font-weight: 600;
   color: #fff;
   margin: 0;
 }
-
 .setting-group {
   margin-bottom: 2rem;
 }
-
 .setting-group label {
   display: block;
   font-weight: 500;
   margin-bottom: 0.5rem;
   color: #b8c8e8;
 }
-
 .setting-group input[type="text"] {
   width: 100%;
   padding: 0.8rem 1rem;
@@ -48,7 +43,6 @@
 .setting-group input[type="text"]:focus {
   border-color: #4a7cff;
 }
-
 .theme-options {
   display: flex;
   gap: 0.8rem;
@@ -68,7 +62,6 @@
   color: #fff;
 }
 .theme-btn:hover { background: rgba(255,255,255,0.05); }
-
 .toggle-container {
   display: flex;
   align-items: center;
@@ -106,7 +99,6 @@
 .toggle-label {
   color: #b0bedd;
 }
-
 .btn-danger {
   background: rgba(255, 70, 70, 0.15);
   color: #ff6b6b;
@@ -120,7 +112,6 @@
 .btn-danger:hover {
   background: rgba(255, 70, 70, 0.25);
 }
-
 .btn-primary {
   background: linear-gradient(135deg, #4a7cff, #6c5ce7);
   color: #fff;
