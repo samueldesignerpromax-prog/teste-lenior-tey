@@ -1,4 +1,4 @@
-// URL do backend no Render - ATUALIZADO
+// URL do backend no Render (altere se necessário)
 const API_BASE_URL = 'https://lenior-ss.onrender.com/api';
 
 const messagesContainer = document.getElementById('chatMessages');
